@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "literature-visualization"
+version = "0.1.0"
+description = ""
+authors = ["Haowei Wang <hw_wang@whu.edu.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+pymongo = "^4.9.1"
+pandas = "^2.2.3"
+xgboost = "^2.1.1"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
